@@ -115,10 +115,7 @@ class Ball(pygame.sprite.Sprite):
             self.v_y = -1 * self.v_y * self.elasticity
 
 
-# Loop 50 times and add a ball flake in a random x,y position
-
 clock = pygame.time.Clock()
-
 
 all_sprite_list = pygame.sprite.Group()
 
